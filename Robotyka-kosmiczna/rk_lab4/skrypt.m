@@ -1,7 +1,3 @@
-%--------------------------------------------------------------------------
-% Function fot calculating symbolic M and C matrices
-%--------------------------------------------------------------------------
-
 clear
 clc
 
@@ -27,7 +23,7 @@ syms x7  % the first derivative of x2 [m/sec]
 syms x8  % the first derivative of x3 [rad/sec]
 syms x9 % the first derivative of x4 [rad/sec]
 syms x10 % the first derivative of x5 [rad/sec]
-
+syms Q
 
 
 
@@ -98,21 +94,3 @@ for i=1:1:size(Qdot,1)
 end
 
 C = N1*Qdot - 0.5*N2;
-
-
- 
- 
- 
- 
- 
- 
- 
- 
- 
- 
- 
- 
- 
- 
-     
- 
